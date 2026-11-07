@@ -10,7 +10,7 @@ Function makePowerOf(int power) {
   };
 }
 
-void main() { 
+void main() {
   var squareFn = makePowerOf(2);
   var cubeFn = makePowerOf(3);
   var tenFn = makePowerOf(10);
@@ -18,4 +18,5 @@ void main() {
   print('Square of 5: ${squareFn(5)}');
   print('Cube of 7: ${cubeFn(7)}');
   print('7 power for 10: ${tenFn(7)}');
+  
 }
