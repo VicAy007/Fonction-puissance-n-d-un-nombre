@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:path/path.dart' as p;
 
-void main() {   
+void main() {
   var currentPath = p.current;
 
   print('Current path is: $currentPath');
